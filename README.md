@@ -1,7 +1,5 @@
 # SS14_HW05 - Hệ thống đặt combo chuyến đi trọn gói
 
-**Sinh viên:** Đặng Khánh An - **Mã sinh viên:** PTIT070
-
 ## 1. Bài toán và đầu vào/đầu ra
 
 Khách hàng đặt một combo gồm vé máy bay, phòng khách sạn và thanh toán. Vì ba tài nguyên nằm ở các hệ thống độc lập, giao dịch cơ sở dữ liệu ACID không thể bao trùm toàn bộ. Hệ thống dùng Saga để bảo đảm kết quả cuối cùng là đặt đủ cả ba hoặc bù trừ những bước đã thành công.
