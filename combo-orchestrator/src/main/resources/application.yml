@@ -1,0 +1,9 @@
+server:
+  port: 8080
+partners:
+  flight-url: http://localhost:8081
+  hotel-url: http://localhost:8082
+  payment-url: http://localhost:8083
+  hotel-timeout: 2s
+  retry-count: 2
+  retry-delay: 500ms
